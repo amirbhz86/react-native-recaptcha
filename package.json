@@ -1,6 +1,6 @@
 {
   "name": "react-native-recaptcha-v3",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "A react native wrapper for Google ReCaptcha V3",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,35 @@
   "author": "Akash Sant",
   "license": "ISC",
   "dependencies": {
+    "merge": ">=1.2.1",
     "prop-types": "^15.6.1",
-    "merge": ">=1.2.1"
+    "react-native-webview": "^11.22.2"
   },
   "peerDependencies": {
     "react-native": "*"
+  },
+  "react-native": {
+    "crypto": "react-native-crypto",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "crypto": "react-native-crypto",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
   }
 }
